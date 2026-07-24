@@ -1,0 +1,230 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytorch model files
+*.pt
+*.pth
+
+# Others
+*.toml
+*.tox
+*.lock
+*.pptx
+*.tex
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Gitkeep
+.gitkeep
+
+# Internal authoring material: NOT for the public repo.
+# context/ holds the full run-of-show and briefs for all 45 sessions;
+# publishing it would leak every future class at once.
+# tools/ is the private build machinery (manifest + site generator + release helper);
+# it runs locally and only its output (index.html, README.md) is published.
+context/
+CLAUDE.md
+tools/
+
+# Unreleased classes: kept out of the repo until their teaching day.
+# tools/release.py removes the matching line (and clears the manifest hold)
+# when a class is published, so a stray `git add -A` can never leak future work.
+
+# Course modules and their submodules
+
+# modules/module-1-python-for-ai/01-kickoff-and-setup/
+modules/module-1-python-for-ai/01-kickoff-and-setup/micro-assignment/solution
+# modules/module-1-python-for-ai/02-python-core/
+modules/module-1-python-for-ai/02-python-core/micro-assignment/solution
+modules/module-1-python-for-ai/03-python-for-real-work/
+modules/module-1-python-for-ai/03-python-for-real-work/micro-assignment/solution
+modules/module-1-python-for-ai/04-the-data-stack/
+modules/module-1-python-for-ai/04-the-data-stack/micro-assignment/solution
+modules/module-1-python-for-ai/05-apis-and-the-web/
+modules/module-1-python-for-ai/05-apis-and-the-web/micro-assignment/solution
+modules/module-1-python-for-ai/milestone-assignment/
+
+modules/module-2-ml-dl-essentials/00-math-intuition-primer/
+modules/module-2-ml-dl-essentials/01-what-is-ml/
+modules/module-2-ml-dl-essentials/02-how-models-learn/
+modules/module-2-ml-dl-essentials/03-neural-networks/
+modules/module-2-ml-dl-essentials/04-pytorch-fundamentals/
+modules/module-2-ml-dl-essentials/05-training-in-practice/
+modules/module-2-ml-dl-essentials/milestone-assignment/
+
+modules/module-3-nlp-to-transformers/01-text-as-data/
+modules/module-3-nlp-to-transformers/02-attention/
+modules/module-3-nlp-to-transformers/03-the-transformer/
+modules/module-3-nlp-to-transformers/04-pretrained-transformers/
+modules/module-3-nlp-to-transformers/05-from-models-to-llms/
+modules/module-3-nlp-to-transformers/milestone-assignment/
+
+modules/module-4-llms-genai/01-working-with-llms/
+modules/module-4-llms-genai/02-prompt-engineering/
+modules/module-4-llms-genai/03-structured-outputs-and-tool-calling/
+modules/module-4-llms-genai/04-embeddings-and-vector-databases/
+modules/module-4-llms-genai/05-rag-from-scratch/
+modules/module-4-llms-genai/06-rag-with-frameworks/
+modules/module-4-llms-genai/07-how-llms-are-served/
+modules/module-4-llms-genai/08-evaluating-llm-and-rag/
+modules/module-4-llms-genai/09-fine-tuning-decision-and-data/
+modules/module-4-llms-genai/10-fine-tuning-qlora-and-alignment/
+modules/module-4-llms-genai/milestone-assignment/
+
+modules/module-5-ai-agents/01-what-is-an-agent/
+modules/module-5-ai-agents/02-tool-calling-and-react/
+modules/module-5-ai-agents/03-memory-for-agents/
+modules/module-5-ai-agents/04-langgraph/
+modules/module-5-ai-agents/05-mcp/
+modules/module-5-ai-agents/06-reliability-and-failure-modes/
+modules/module-5-ai-agents/07-assemble-single-agent/
+modules/module-5-ai-agents/milestone-assignment/
+
+modules/module-6-agentic-ai/01-multi-agent-architectures/
+modules/module-6-agentic-ai/02-orchestration/
+modules/module-6-agentic-ai/03-context-engineering/
+modules/module-6-agentic-ai/04-guardrails-routing-compliance/
+modules/module-6-agentic-ai/05-ai-security/
+modules/module-6-agentic-ai/06-observability-and-tracing/
+modules/module-6-agentic-ai/07-evaluating-agentic-systems/
+modules/module-6-agentic-ai/08-deployment/
+modules/module-6-agentic-ai/09-no-code-with-n8n/
+modules/module-6-agentic-ai/milestone-assignment/
+
+modules/module-7-capstone/01-capstone-kickoff/
+modules/module-7-capstone/02-build-lab-1/
+modules/module-7-capstone/03-build-lab-2/
+modules/module-7-capstone/04-interview-prep-and-capstone/
+modules/module-7-capstone/capstone/
+
+
+
