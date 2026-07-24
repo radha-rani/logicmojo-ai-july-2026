@@ -4,7 +4,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 
 > Live cohort. New classes are published each week.
 
-**[View the live course site](https://skarma91.github.io/gen-ai-and-agentic-ai-course/)**
+**[View the live course site](https://skarma91.github.io/logicmojo-ai-july-2026/)**
 
 ## Roadmap
 
