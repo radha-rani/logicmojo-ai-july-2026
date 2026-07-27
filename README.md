@@ -12,7 +12,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 ### Module 1: Python for AI
 - [1.1 Kickoff and setup](modules/module-1-python-for-ai/01-kickoff-and-setup/)
 - [1.2 Python core](modules/module-1-python-for-ai/02-python-core/)
-- 1.3 Python for real work (upcoming)
+- [1.3 Python for real work](modules/module-1-python-for-ai/03-python-for-real-work/)
 - 1.4 The data stack (upcoming)
 - 1.5 APIs and the web (upcoming)
 - Module 1 milestone assignment (upcoming)

@@ -98,4 +98,4 @@ The working script and its output. Fill in `assignment.ipynb` and run it. A plai
 
 ## How this is checked
 
-Nothing is submitted or graded. A reference solution is released on the weekly schedule in the `solution/` folder. Compare your output to the expected output above.
+A reference solution is released on the weekly schedule in the `solution/` folder. Compare your output to the expected output above.
