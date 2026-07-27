@@ -96,7 +96,7 @@ The working script and its output. Fill in `assignment.ipynb` and run it so the 
 
 ## How this is checked
 
-A reference solution is released on the weekly schedule in the `solution/` folder. Compare your output to the expected output above, then check your approach against the solution once it is released.
+A reference solution is released in the `solution/` folder. Compare your output to the expected output above, then check your approach against the solution once it is released.
 
 ## Hints
 
