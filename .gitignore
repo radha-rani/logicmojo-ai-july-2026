@@ -162,7 +162,6 @@ tools/
 # Course modules and their submodules
 
 modules/module-1-python-for-ai/03-python-for-real-work/micro-assignment/solution
-modules/module-1-python-for-ai/04-the-data-stack/
 modules/module-1-python-for-ai/04-the-data-stack/micro-assignment/solution
 modules/module-1-python-for-ai/05-apis-and-the-web/
 modules/module-1-python-for-ai/05-apis-and-the-web/micro-assignment/solution
