@@ -14,8 +14,8 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - [1.2 Python core](modules/module-1-python-for-ai/02-python-core/)
 - [1.3 Python for real work](modules/module-1-python-for-ai/03-python-for-real-work/)
 - [1.4 The data stack](modules/module-1-python-for-ai/04-the-data-stack/)
-- 1.5 APIs and the web (upcoming)
-- Module 1 milestone assignment (upcoming)
+- [1.5 APIs and the web](modules/module-1-python-for-ai/05-apis-and-the-web/)
+- [Module 1 milestone assignment](modules/module-1-python-for-ai/milestone-assignment/)
 
 ### Module 2: ML and DL essentials
 - [Math intuition primer](modules/module-2-ml-dl-essentials/00-math-intuition-primer/)
