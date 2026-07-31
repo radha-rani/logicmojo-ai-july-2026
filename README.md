@@ -80,6 +80,6 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 ## About
 
 Seven modules, 45 classes, taught hands-on in live classes. Each class ships a
-Reveal.js deck (`slides.html`) and a `code/` folder with the
-runnable material (`.ipynb` notebooks, or `.py` files).
+Reveal.js deck (`slides.html`) to teach from and a `code/` folder with the
+runnable material (`.ipynb` notebooks, or `.py` files from Module 4 class 05).
 New classes are published each week as the live cohort reaches them.
