@@ -161,13 +161,10 @@ tools/
 
 # Course modules and their submodules
 
-modules/module-1-python-for-ai/03-python-for-real-work/micro-assignment/solution
-modules/module-1-python-for-ai/04-the-data-stack/micro-assignment/solution
 modules/module-1-python-for-ai/05-apis-and-the-web/
 modules/module-1-python-for-ai/05-apis-and-the-web/micro-assignment/solution
 modules/module-1-python-for-ai/milestone-assignment/
 
-modules/module-2-ml-dl-essentials/00-math-intuition-primer/
 modules/module-2-ml-dl-essentials/01-what-is-ml/
 modules/module-2-ml-dl-essentials/02-how-models-learn/
 modules/module-2-ml-dl-essentials/03-neural-networks/

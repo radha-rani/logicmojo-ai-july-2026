@@ -18,7 +18,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - Module 1 milestone assignment (upcoming)
 
 ### Module 2: ML and DL essentials
-- Math intuition primer (upcoming)
+- [Math intuition primer](modules/module-2-ml-dl-essentials/00-math-intuition-primer/)
 - 2.1 What is ML (upcoming)
 - 2.2 How models learn (upcoming)
 - 2.3 Neural networks (upcoming)
