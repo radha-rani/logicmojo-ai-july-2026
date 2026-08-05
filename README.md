@@ -20,8 +20,8 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 
 ### Module 2: ML and DL essentials
 - [Math intuition primer](modules/module-2-ml-dl-essentials/00-math-intuition-primer/)
-- 2.1 What is ML (upcoming)
-- 2.2 How models learn (upcoming)
+- [2.1 What is ML](modules/module-2-ml-dl-essentials/01-what-is-ml/)
+- [2.2 How models learn](modules/module-2-ml-dl-essentials/02-how-models-learn/)
 - 2.3 Neural networks (upcoming)
 - 2.4 PyTorch fundamentals (upcoming)
 - 2.5 Training in practice (upcoming)
