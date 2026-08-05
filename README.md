@@ -2,7 +2,7 @@
 
 From basic Python to building agentic AI systems, taught hands-on in live classes.
 
-> Live cohort. New classes are published each week.
+> Live cohort. Every class is taught live, with recordings and materials published after each class.
 
 **[View the live course site](https://skarma91.github.io/logicmojo-ai-july-2026/)**
 
@@ -16,6 +16,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - [1.4 The data stack](modules/module-1-python-for-ai/04-the-data-stack/)
 - [1.5 APIs and the web](modules/module-1-python-for-ai/05-apis-and-the-web/)
 - [Module 1 milestone assignment](modules/module-1-python-for-ai/milestone-assignment/)
+- [Suggested reading](modules/module-1-python-for-ai/suggested_reading_list/)
 
 ### Module 2: ML and DL essentials
 - [Math intuition primer](modules/module-2-ml-dl-essentials/00-math-intuition-primer/)
@@ -25,6 +26,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 2.4 PyTorch fundamentals (upcoming)
 - 2.5 Training in practice (upcoming)
 - Module 2 milestone assignment (upcoming)
+- Suggested reading (upcoming)
 
 ### Module 3: NLP to Transformers
 - 3.1 Text as data (upcoming)
@@ -33,6 +35,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 3.4 Using pretrained transformers (upcoming)
 - 3.5 From models to LLMs (upcoming)
 - Module 3 milestone assignment (upcoming)
+- Suggested reading (upcoming)
 
 ### Module 4: LLMs and GenAI
 - 4.1 Working with LLMs (upcoming)
@@ -46,6 +49,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 4.9 Fine-tuning I: the decision and data (upcoming)
 - 4.10 Fine-tuning II: QLoRA and alignment (upcoming)
 - Module 4 milestone assignment (upcoming)
+- Suggested reading (upcoming)
 
 ### Module 5: AI Agents
 - 5.1 What is an agent (upcoming)
@@ -56,6 +60,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 5.6 Reliability and failure modes (upcoming)
 - 5.7 Assemble a single agent (upcoming)
 - Module 5 milestone assignment (upcoming)
+- Suggested reading (upcoming)
 
 ### Module 6: Agentic AI
 - 6.1 Multi-agent architectures (upcoming)
@@ -68,6 +73,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 6.8 Deployment (upcoming)
 - 6.9 No-code with n8n (upcoming)
 - Module 6 milestone assignment (upcoming)
+- Suggested reading (upcoming)
 
 ### Module 7: Capstone
 - 7.1 Capstone kickoff (upcoming)
@@ -75,11 +81,14 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - 7.3 Build lab 2 (upcoming)
 - 7.4 Interview prep and capstone (upcoming)
 - Capstone project (upcoming)
+- Suggested reading (upcoming)
 <!-- COURSE-ROADMAP:END -->
 
 ## About
 
 Seven modules, 45 classes, taught hands-on in live classes. Each class ships a
-Reveal.js deck (`slides.html`) to teach from and a `code/` folder with the
-runnable material (`.ipynb` notebooks, or `.py` files from Module 4 class 05).
-New classes are published each week as the live cohort reaches them.
+Reveal.js deck (`slides.html`), a `code/` folder with the
+runnable material (`.ipynb` notebooks, or `.py` files) and a micro-assignment for that class.
+Every module closes with a milestone assignment and a suggested reading list of
+free videos, blogs, articles, and book chapters to go deeper. New classes are
+published as the live cohort reaches them.
