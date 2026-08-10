@@ -115,18 +115,24 @@
   margin-bottom: 6px;
 }
 
-/* Padded content region that fills the remaining height. Content is anchored
-   just under the title band (not floated in the middle) so slides use the frame. */
+/* Padded content region that fills the remaining height. Content is centered
+   in the frame by default so a slide uses the whole page instead of clinging to
+   the top and leaving the lower half blank. Add class "top" to anchor high on
+   the rare slide that needs it. */
 .reveal .body {
   flex: 1;
   min-height: 0;
   padding: 34px 48px 40px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 24px;
 }
+.reveal .body.top { justify-content: flex-start; }
 .reveal .body.center { justify-content: center; }
+/* A lone figure as the main content grows to fill the frame instead of sitting
+   small in the middle. Slides that want this pair a figure-wrap directly in body. */
+.reveal .body > .figure-wrap { flex: 1 1 auto; min-height: 0; }
 
 /* Intro line under a band, before bullets or cards */
 .reveal .body .stmt {
@@ -287,6 +293,7 @@
   border: 1px solid #f0d9b5;
   border-radius: 12px;
   padding: 16px 22px;
+  line-height: 1.6;   /* room so inline-code chips on wrapped lines never touch */
 }
 .reveal .callout .label { color: var(--c-warn); }
 
@@ -344,7 +351,7 @@
   font-family: var(--font-mono);
   background: var(--c-surface);
   color: var(--c-accent-dark);
-  padding: 2px 8px;
+  padding: 1px 7px;
   border-radius: 6px;
   font-size: 0.9em;
 }
@@ -545,7 +552,11 @@
   align-items: center;
   margin: 4px 0;
 }
-.figure-wrap svg { max-width: 100%; height: auto; }
+.figure-wrap svg { max-width: 100%; height: auto; max-height: 100%; }
+/* A figure sharing a row with a text column must not outgrow the frame height.
+   Cap it below the usable body height so a tall aspect ratio letterboxes to fit
+   instead of spilling past the slide. */
+.reveal .cols .figure-wrap svg { max-height: 430px; }
 
 /* SVG text roles used by inline charts */
 .axlbl { font-size: 13px; fill: var(--c-ink-soft); font-family: var(--font-body); }
