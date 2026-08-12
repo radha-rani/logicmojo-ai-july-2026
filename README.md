@@ -25,8 +25,8 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - [2.3 Neural networks](modules/module-2-ml-dl-essentials/03-neural-networks/)
 - [2.4 PyTorch fundamentals](modules/module-2-ml-dl-essentials/04-pytorch-fundamentals/)
 - [2.5 Training in practice](modules/module-2-ml-dl-essentials/05-training-in-practice/)
-- Module 2 milestone assignment (upcoming)
-- Suggested reading (upcoming)
+- [Module 2 milestone assignment](modules/module-2-ml-dl-essentials/milestone-assignment/)
+- [Suggested reading](modules/module-2-ml-dl-essentials/suggested_reading_list/)
 
 ### Module 3: NLP to Transformers
 - 3.1 Text as data (upcoming)
