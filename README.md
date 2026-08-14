@@ -29,7 +29,7 @@ From basic Python to building agentic AI systems, taught hands-on in live classe
 - [Suggested reading](modules/module-2-ml-dl-essentials/suggested_reading_list/)
 
 ### Module 3: NLP to Transformers
-- 3.1 Text as data (upcoming)
+- [3.1 Text as data](modules/module-3-nlp-to-transformers/01-text-as-data/)
 - 3.2 Attention (upcoming)
 - 3.3 The Transformer (upcoming)
 - 3.4 Using pretrained transformers (upcoming)
