@@ -1,0 +1,9 @@
+{
+  "facts": {
+    "rows": 5,
+    "total_revenue": 13300,
+    "top_category_by_revenue": "hardware",
+    "avg_units": 140.0
+  },
+  "summary": "Based on the given dictionary, the company has a total revenue of $13,300 and an average of 140 units sold. The top category by revenue is hardware, which suggests that hardware products contribute significantly to the company's overall revenue."
+}
